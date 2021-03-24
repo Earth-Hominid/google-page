@@ -17,7 +17,7 @@ a {
 .firstClass{
   display:flex;
   flex-direction:column;
-  height:100%
+  height:100%;
   align-items: center;
   box-sizing: border-box;
   flex-direction: column;
@@ -67,5 +67,42 @@ img[Attributes Style] {
   font-family: arial, sans-serif;
   font-size: 14px;
   color: rgb (34, 34, 34);
+  align-items: center;
+  text-align: center;
+}
+input {
+  width: 15%;
+  text-align: left;
 }
 
+.navFooterOne{
+  display: block;
+  background-color: rgb(218, 220, 224);
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 15px;
+  border-bottom: 1px solid #dadce0;;
+  border-bottom-style: solid;
+  font-size: 15px;
+  border-bottom-width 1.5px;
+  font-family: arial, sans-serif;
+  height: 16.5px;
+}
+.navFooterTwo{
+  display: flex;
+  flex wrap: wrap;
+  background-color: rgb(218, 220, 224);
+  font-family: arial, sans-serif;
+  font-size 14px;
+  color: rgb(34, 34, 34);
+  height: 45px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  bottom: 0;
+}
+.middle {
+  
+}

@@ -9,7 +9,7 @@ Insert the Google logo / image and centre it both vertically and horizontally.
 
 Add the search bar below this.
 
-Add two square buttons with light grey background below the search bar, titled "Google Search" & "I'm Felling Lucky".
+Add two square buttons with light grey background below the search bar, titled "Google Search" & "I'm Feeling Lucky".
 
 Add "Gmail" "Images" and "Square Dot Log" links in top right corner (header bar?).
 
