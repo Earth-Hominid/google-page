@@ -1,3 +1,28 @@
+.firstClass {
+  display: flex;
+  flex-direction: column;
+  height: 100%
+}
+
+.secondClass {
+  height: 60px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 92px;
+  min-height: 150px;
+  max-height: 290px;
+  height: calc(100% - 560px);
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: block;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #222;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -18,8 +43,10 @@ a {
 }
 
 .search {
-  width: 350px;
+  width: 484px;
   max-width: 600px;
+  position: relative;
+  outline: none;
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
@@ -33,6 +60,7 @@ a {
   font-size: 14px;
   font-family: arial,sans-serif;
   color: #222;
+  outline: none;
 }
 
 .searchClass {
@@ -54,20 +82,6 @@ a {
   color: rgb (34, 34, 34);
   align-items: center;
   text-align: center;
-}
-
-.firstClass{
-  display:flex;
-  flex-direction:column;
-  height:100%;
-  align-items: center;
-  box-sizing: border-box;
-  flex-direction: column;
-  flex-shrink: 0;
-  height: 290px;
-  max-height: 290px;
-  min-height: 90px;
-  width: 1380px;
 }
 
 .thirdclass {
@@ -137,4 +151,25 @@ input {
   padding-right: 20px;
   padding-top: 0px;
   bottom: 0;
+}
+
+.buttonInput {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  appearance: auto;
+  white-space: pre;
+  align-items: flex-start;
+  box-sizing: border-box;
 }
