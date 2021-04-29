@@ -15,17 +15,15 @@ For the Advanced Search page, the user should be able to provide input for the f
 - Find pages with… “any of these words:”
 - Find pages with… “none of these words:”
 
-Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
+Like Google’s own Advanced Search page, the four options will be stacked vertically, and all of the text fields should be left aligned.
 
 - Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text. When the “Advanced Search” button is clicked, the user should be taken to search results page for their given query.
 
-- Lucky. 
+Lucky. 
+- Add “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
 
-Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
-- Aesthetics. 
-The CSS you write should match Google’s own aesthetics as best as possible.
-
-
+Aesthetics. 
+- The CSS should match Google’s own aesthetics as best as possible.
 
 Items to be done:
 
